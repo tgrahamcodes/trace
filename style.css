@@ -1,0 +1,60 @@
+table {
+	margin: auto;
+}
+
+html{
+	height: 100%;
+}
+
+#map {
+	height: 400px;
+	width: 100%;
+	padding: 0;
+}
+
+td {
+	text-align: center;
+	width: 800px;
+	padding: 10px;
+	background-color: #264653;
+	color: #e76f51;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+body {
+	background-image: url("assets/nasa.jpg");
+	background-size: cover;
+	background-blend-mode: normal;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.navbar-custom {
+	background-color: #264653;
+}
+
+.navbar-custom .navbar-brand, 
+.navbar-custom .nav-link,
+.navbar-custom .navbar-text {
+	color: #ffb997;
+}
+
+.navbar-custom .dropdown-menu {
+	background: #264653;
+}
+
+.navbar-custom .dropdown-item {
+	color: #ffb997;
+}
+
+h1 {
+	color: #ffb997;
+}
+
+.navbar-custom .dropdown-divider{
+	color: #e76f51
+}
+
+#color {
+	color: #ffb997;
+}
