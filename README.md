@@ -1,36 +1,47 @@
-# trace
+# Trace
 
-A project that started from relearning css/js/html via a Udemy course. The goal
-is to continue maintaing the project and build it up overtime, while documenting
-changes, and fixes.
+## Overview
+Trace is a web project that started as a way to relearn **CSS, JavaScript, and HTML** through a Udemy course. Over time, it has evolved into a project incorporating **geolocation, Google Maps API**, and **Node.js** for backend processing.
 
-## Updates:
+## Features
+- Uses **Google Maps API** for geolocation tracking.
+- Implements **IP geolocation** via the **ipinfo API**.
+- Includes a **Node.js backend** with **Express**.
+- Designed with **Bootstrap** for improved UI.
 
-### 12/31/2019
+## Prerequisites
+- **Node.js** and **npm** installed.
+- Internet access for API functionality.
 
--Added background image.<br>
--Added some geolocation through html/js.<br>
--Adjusted the Google Maps API.<br>
--Added some parts of the javascript API from ipinfo.<br>
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repository/trace.git
+   cd trace
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-### 1/1/2020
+## Usage
+To start the project, run:
+```sh
+node server.js
+```
+Then open a browser and navigate to:
+```sh
+http://localhost:3000
+```
 
--Added bootstrap to website.<br>
--Added navigation bar.<br>
--Fixed readme.<br>
+## Project Structure
+- `index.html`: Main frontend file.
+- `main.js`: Handles JavaScript interactions.
+- `style.css`: Contains the styling.
+- `server.js`: Node.js server implementation.
+- `package.json`: Manages project dependencies.
 
-### 1/2/2020
-
--Officially began JavaScript portion. <br>
--Working on http request to save. <br>
-
-### 1/22/2020
-
--Fixed background image in style.css. <br>
--Fixed JavaScript API call to ipinfo. <br>
--Fixed JavaScript API call to google. <br>
--Fixed lookup process. <br>
-
-### 1/23/2020
-
--Converted project to use node.js server and npm 
+## Additional Notes
+- The project initially started as a static website but was later converted to a **Node.js** server.
+- Uses **Bootstrap** for styling and responsive design.
+- Includes API calls for geolocation lookup and mapping services.
